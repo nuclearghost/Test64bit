@@ -23,6 +23,11 @@
 		E8D3EDD41958DBDF000AD0B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D3EDB01958DBDF000AD0B3 /* UIKit.framework */; };
 		E8D3EDDC1958DBDF000AD0B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8D3EDDA1958DBDF000AD0B3 /* InfoPlist.strings */; };
 		E8D3EDDE1958DBDF000AD0B3 /* Test64bitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D3EDDD1958DBDF000AD0B3 /* Test64bitTests.m */; };
+		E8D3EDE81958DCA9000AD0B3 /* SharethroughSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D3EDE71958DCA9000AD0B3 /* SharethroughSDK.framework */; };
+		E8D3EDEA1958DCC0000AD0B3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D3EDE91958DCC0000AD0B3 /* MediaPlayer.framework */; };
+		E8D3EDEC1958DCC7000AD0B3 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D3EDEB1958DCC7000AD0B3 /* AdSupport.framework */; };
+		E8D3EDEF1958DCFE000AD0B3 /* MostViewedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D3EDEE1958DCFE000AD0B3 /* MostViewedTableViewController.m */; };
+		E8D3EDF21958DFA5000AD0B3 /* SFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D3EDF11958DFA5000AD0B3 /* SFTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +63,13 @@
 		E8D3EDD91958DBDF000AD0B3 /* Test64bitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test64bitTests-Info.plist"; sourceTree = "<group>"; };
 		E8D3EDDB1958DBDF000AD0B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E8D3EDDD1958DBDF000AD0B3 /* Test64bitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test64bitTests.m; sourceTree = "<group>"; };
+		E8D3EDE71958DCA9000AD0B3 /* SharethroughSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SharethroughSDK.framework; sourceTree = "<group>"; };
+		E8D3EDE91958DCC0000AD0B3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E8D3EDEB1958DCC7000AD0B3 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E8D3EDED1958DCFE000AD0B3 /* MostViewedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MostViewedTableViewController.h; path = ../MostViewedTableViewController.h; sourceTree = "<group>"; };
+		E8D3EDEE1958DCFE000AD0B3 /* MostViewedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MostViewedTableViewController.m; path = ../MostViewedTableViewController.m; sourceTree = "<group>"; };
+		E8D3EDF01958DFA5000AD0B3 /* SFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTableViewCell.h; sourceTree = "<group>"; };
+		E8D3EDF11958DFA5000AD0B3 /* SFTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +77,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D3EDEC1958DCC7000AD0B3 /* AdSupport.framework in Frameworks */,
+				E8D3EDEA1958DCC0000AD0B3 /* MediaPlayer.framework in Frameworks */,
 				E8D3EDAF1958DBDF000AD0B3 /* CoreGraphics.framework in Frameworks */,
 				E8D3EDB11958DBDF000AD0B3 /* UIKit.framework in Frameworks */,
 				E8D3EDAD1958DBDF000AD0B3 /* Foundation.framework in Frameworks */,
+				E8D3EDE81958DCA9000AD0B3 /* SharethroughSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +121,9 @@
 		E8D3EDAB1958DBDF000AD0B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E8D3EDEB1958DCC7000AD0B3 /* AdSupport.framework */,
+				E8D3EDE91958DCC0000AD0B3 /* MediaPlayer.framework */,
+				E8D3EDE71958DCA9000AD0B3 /* SharethroughSDK.framework */,
 				E8D3EDAC1958DBDF000AD0B3 /* Foundation.framework */,
 				E8D3EDAE1958DBDF000AD0B3 /* CoreGraphics.framework */,
 				E8D3EDB01958DBDF000AD0B3 /* UIKit.framework */,
@@ -125,6 +143,10 @@
 				E8D3EDC51958DBDF000AD0B3 /* FirstViewController.m */,
 				E8D3EDC71958DBDF000AD0B3 /* SecondViewController.h */,
 				E8D3EDC81958DBDF000AD0B3 /* SecondViewController.m */,
+				E8D3EDED1958DCFE000AD0B3 /* MostViewedTableViewController.h */,
+				E8D3EDEE1958DCFE000AD0B3 /* MostViewedTableViewController.m */,
+				E8D3EDF01958DFA5000AD0B3 /* SFTableViewCell.h */,
+				E8D3EDF11958DFA5000AD0B3 /* SFTableViewCell.m */,
 				E8D3EDCA1958DBDF000AD0B3 /* Images.xcassets */,
 				E8D3EDB31958DBDF000AD0B3 /* Supporting Files */,
 			);
@@ -260,8 +282,10 @@
 			files = (
 				E8D3EDC91958DBDF000AD0B3 /* SecondViewController.m in Sources */,
 				E8D3EDBD1958DBDF000AD0B3 /* AppDelegate.m in Sources */,
+				E8D3EDF21958DFA5000AD0B3 /* SFTableViewCell.m in Sources */,
 				E8D3EDC61958DBDF000AD0B3 /* FirstViewController.m in Sources */,
 				E8D3EDB91958DBDF000AD0B3 /* main.m in Sources */,
+				E8D3EDEF1958DCFE000AD0B3 /* MostViewedTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +420,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Test64bit/Test64bit-Prefix.pch";
 				INFOPLIST_FILE = "Test64bit/Test64bit-Info.plist";
@@ -409,6 +437,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Test64bit/Test64bit-Prefix.pch";
 				INFOPLIST_FILE = "Test64bit/Test64bit-Info.plist";
