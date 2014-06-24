@@ -28,6 +28,8 @@
 		E8D3EDEC1958DCC7000AD0B3 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D3EDEB1958DCC7000AD0B3 /* AdSupport.framework */; };
 		E8D3EDEF1958DCFE000AD0B3 /* MostViewedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D3EDEE1958DCFE000AD0B3 /* MostViewedTableViewController.m */; };
 		E8D3EDF21958DFA5000AD0B3 /* SFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D3EDF11958DFA5000AD0B3 /* SFTableViewCell.m */; };
+		F3AF76731959EE570005B175 /* adView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AF76721959EE570005B175 /* adView.m */; };
+		F3AF76751959EE870005B175 /* adView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3AF76741959EE870005B175 /* adView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,9 @@
 		E8D3EDEE1958DCFE000AD0B3 /* MostViewedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MostViewedTableViewController.m; path = ../MostViewedTableViewController.m; sourceTree = "<group>"; };
 		E8D3EDF01958DFA5000AD0B3 /* SFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTableViewCell.h; sourceTree = "<group>"; };
 		E8D3EDF11958DFA5000AD0B3 /* SFTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTableViewCell.m; sourceTree = "<group>"; };
+		F3AF76711959EE570005B175 /* adView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adView.h; sourceTree = "<group>"; };
+		F3AF76721959EE570005B175 /* adView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = adView.m; sourceTree = "<group>"; };
+		F3AF76741959EE870005B175 /* adView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = adView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +144,9 @@
 				E8D3EDBC1958DBDF000AD0B3 /* AppDelegate.m */,
 				E8D3EDBE1958DBDF000AD0B3 /* Main_iPhone.storyboard */,
 				E8D3EDC11958DBDF000AD0B3 /* Main_iPad.storyboard */,
+				F3AF76741959EE870005B175 /* adView.xib */,
+				F3AF76711959EE570005B175 /* adView.h */,
+				F3AF76721959EE570005B175 /* adView.m */,
 				E8D3EDC41958DBDF000AD0B3 /* FirstViewController.h */,
 				E8D3EDC51958DBDF000AD0B3 /* FirstViewController.m */,
 				E8D3EDC71958DBDF000AD0B3 /* SecondViewController.h */,
@@ -259,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8D3EDC31958DBDF000AD0B3 /* Main_iPad.storyboard in Resources */,
+				F3AF76751959EE870005B175 /* adView.xib in Resources */,
 				E8D3EDCB1958DBDF000AD0B3 /* Images.xcassets in Resources */,
 				E8D3EDC01958DBDF000AD0B3 /* Main_iPhone.storyboard in Resources */,
 				E8D3EDB71958DBDF000AD0B3 /* InfoPlist.strings in Resources */,
@@ -281,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8D3EDC91958DBDF000AD0B3 /* SecondViewController.m in Sources */,
+				F3AF76731959EE570005B175 /* adView.m in Sources */,
 				E8D3EDBD1958DBDF000AD0B3 /* AppDelegate.m in Sources */,
 				E8D3EDF21958DFA5000AD0B3 /* SFTableViewCell.m in Sources */,
 				E8D3EDC61958DBDF000AD0B3 /* FirstViewController.m in Sources */,
@@ -508,6 +518,7 @@
 				E8D3EDE31958DBDF000AD0B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8D3EDE41958DBDF000AD0B3 /* Build configuration list for PBXNativeTarget "Test64bitTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +527,7 @@
 				E8D3EDE61958DBDF000AD0B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

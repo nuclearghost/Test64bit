@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SharethroughSDK/SharethroughSDK.h>
 
-@interface SecondViewController : UIViewController
+#import "adView.h"
+
+@interface SecondViewController : UIViewController <STRAdViewDelegate>
+
+@property (weak, nonatomic) IBOutlet adView *placeAdView;
 
 @end
